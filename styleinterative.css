@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: wheat;
+    overflow: hidden;
+    font-size: 18px;
+   
+}
+
+.container{
+     display: flex;
+      margin-top: 60px;
+      background-color: white;
+      width: 1400px;
+}
+form{
+    padding: 150px 410px;
+}
+.name{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(206, 195, 195);
+}
+
+
+
+
+.desktop-img{
+    height: 86vh;
+    width: 40%;
+    position: absolute;
+}
+
+.mobile-img{
+    display: none;
+}
+
+.desktop-front{
+    position: absolute;
+    left: 130px;
+    top: 140px;
+    width: 40%;
+}
+
+.mobile-front,.mobile-back{
+    display: none;
+}
+
+.back{
+    position: absolute;
+    left: 200px;
+    top: 385px;
+    width: 40%;
+}
+
+.para{
+  display: flex;
+  gap: 3px;
+}
+
+.paragraph{
+    position: relative;
+    top: 170px;
+    left: 180px;
+    font-size: large;
+    font-weight: 800px;
+    color: white;
+    letter-spacing: 10px;
+    display: inline-flex;
+}
+
+.paragraph2{
+    display: none;
+}
+
+
+.logo{
+    width: 20%;
+    position: relative;
+    left: 55%;
+    top: 120px;
+ 
+}
+
+.logo2{
+    display: none;
+}
+
+.para2{
+    display: none;
+}
+
+.head{
+    position: absolute;
+    top: 320px;
+    left: 180px;
+    color: hsl(0, 0%, 100%);
+}
+
+.number{
+    position: absolute;
+    left: 450px;
+    color: hsl(0, 0%, 100%); 
+    top: 320px;
+}
+
+.backnumber{
+    position: absolute;
+    left: 500px;
+    color:hsl(0, 0%, 100%); 
+    top: 485px; 
+    letter-spacing: 2px;
+}
+
+.backnumber2{
+    display: none;
+}
+
+
+
+.name{
+    width: 250px;
+}
+
+#card{
+    margin-bottom: 80px; 
+}
+
+.name2{
+    display: none;
+}
+
+#card2{
+    display: none; 
+}
+
+.month{
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(206, 195, 195);
+}
+
+.month2{
+    display: none;
+}
+
+
+.year{
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(206, 195, 195);
+    border-radius: 5px;
+}
+
+.year2{
+    display: none;
+}
+
+.cvc{
+    width: 80px;
+    position: absolute;
+    top: 30px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(206, 195, 195);
+    border-radius: 5px;
+    
+}
+
+.cvc2{
+    display: none; 
+}
+
+.date{
+    display: flex;
+    gap: 5px;
+    position: relative;
+  
+}
+
+.date2{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 110px;
+    left: 5px;
+    background-color:  hsl(278, 68%, 11%);
+    padding: 5px 16px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid rgb(206, 195, 195);
+
+}
+
